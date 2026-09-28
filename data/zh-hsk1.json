@@ -1,0 +1,22 @@
+[
+  { "word": "你好",   "reading": "nǐ hǎo",   "meaning": "halo" },
+  { "word": "谢谢",   "reading": "xiè xie",  "meaning": "terima kasih" },
+  { "word": "再见",   "reading": "zài jiàn", "meaning": "selamat tinggal" },
+  { "word": "我",     "reading": "wǒ",       "meaning": "saya" },
+  { "word": "你",     "reading": "nǐ",       "meaning": "kamu" },
+  { "word": "他",     "reading": "tā",       "meaning": "dia (laki-laki)" },
+  { "word": "她",     "reading": "tā",       "meaning": "dia (perempuan)" },
+  { "word": "是",     "reading": "shì",      "meaning": "adalah" },
+  { "word": "不",     "reading": "bù",       "meaning": "tidak" },
+  { "word": "好",     "reading": "hǎo",      "meaning": "baik" },
+  { "word": "水",     "reading": "shuǐ",     "meaning": "air" },
+  { "word": "饭",     "reading": "fàn",      "meaning": "nasi / makanan" },
+  { "word": "吃",     "reading": "chī",      "meaning": "makan" },
+  { "word": "喝",     "reading": "hē",       "meaning": "minum" },
+  { "word": "学校",   "reading": "xué xiào", "meaning": "sekolah" },
+  { "word": "老师",   "reading": "lǎo shī",  "meaning": "guru" },
+  { "word": "学生",   "reading": "xué shēng","meaning": "murid" },
+  { "word": "朋友",   "reading": "péng you", "meaning": "teman" },
+  { "word": "家",     "reading": "jiā",      "meaning": "rumah / keluarga" },
+  { "word": "中国",   "reading": "zhōng guó","meaning": "Tiongkok" }
+]

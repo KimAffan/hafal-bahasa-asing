@@ -1,0 +1,22 @@
+[
+  { "word": "こんにちは",     "reading": "konnichiwa",  "meaning": "halo / selamat siang" },
+  { "word": "ありがとう",     "reading": "arigatou",    "meaning": "terima kasih" },
+  { "word": "さようなら",     "reading": "sayounara",   "meaning": "selamat tinggal" },
+  { "word": "私",             "reading": "watashi",     "meaning": "saya" },
+  { "word": "あなた",         "reading": "anata",       "meaning": "kamu" },
+  { "word": "彼",             "reading": "kare",        "meaning": "dia (laki-laki)" },
+  { "word": "彼女",           "reading": "kanojo",      "meaning": "dia (perempuan)" },
+  { "word": "です",           "reading": "desu",        "meaning": "adalah (sopan)" },
+  { "word": "いいえ",         "reading": "iie",         "meaning": "tidak" },
+  { "word": "はい",           "reading": "hai",         "meaning": "ya" },
+  { "word": "水",             "reading": "mizu",        "meaning": "air" },
+  { "word": "ご飯",           "reading": "gohan",       "meaning": "nasi / makanan" },
+  { "word": "食べる",         "reading": "taberu",      "meaning": "makan" },
+  { "word": "飲む",           "reading": "nomu",        "meaning": "minum" },
+  { "word": "学校",           "reading": "gakkou",      "meaning": "sekolah" },
+  { "word": "先生",           "reading": "sensei",      "meaning": "guru" },
+  { "word": "学生",           "reading": "gakusei",     "meaning": "murid" },
+  { "word": "友達",           "reading": "tomodachi",   "meaning": "teman" },
+  { "word": "家",             "reading": "ie",          "meaning": "rumah" },
+  { "word": "日本",           "reading": "nihon",       "meaning": "Jepang" }
+]

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)" />
+  <title>Hafal — Belajar Bahasa Asing Gratis</title>
+  <meta name="description" content="Hafal — platform belajar bahasa asing gratis dengan flashcard, SRS, dan audio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;700;900&family=Noto+Sans+JP:wght@400;700;900&family=Noto+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/landing.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="./index.html" class="brand">
+        <span class="brand-mark">H</span>
+        <span class="brand-name">Hafal</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#fitur">Fitur</a>
+        <a href="#bahasa">Bahasa</a>
+        <a href="#cara">Cara Pakai</a>
+        <a href="#faq">FAQ</a>
+        <a href="./belajar.html" class="btn btn-primary nav-cta-mobile">Mulai Belajar</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn btn-icon" aria-label="Ganti tema">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <a href="./belajar.html" class="btn btn-primary nav-cta-desktop">Mulai Belajar</a>
+        <button class="btn btn-icon menu-toggle" id="menu-toggle" aria-label="Menu" aria-expanded="false">
+          <span class="menu-icon">☰</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="badge reveal">GRATIS · OFFLINE · TANPA IKLAN</span>
+
+      <h1 class="hero-title reveal">
+        Hafal Kosakata Bahasa Asing,<br />
+        <span class="hero-highlight">Tanpa Ribet.</span>
+      </h1>
+
+      <p class="hero-sub reveal">
+        Flashcard pintar dengan sistem <strong>SRS</strong> (Spaced Repetition System),
+        audio pronunciation, dan progres yang tersimpan otomatis di browser.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a href="./belajar.html" class="btn btn-primary btn-lg">Mulai Belajar</a>
+        <a href="#fitur" class="btn btn-lg">Lihat Fitur</a>
+      </div>
+
+      <div class="hero-stats reveal">
+        <div class="hero-stat">
+          <span class="hero-stat-value">3+</span>
+          <span class="hero-stat-label">Bahasa</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-value">60+</span>
+          <span class="hero-stat-label">Kosakata</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-value">100%</span>
+          <span class="hero-stat-label">Gratis</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FITUR ================= -->
+  <section id="fitur" class="section">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="section-tag">FITUR</span>
+        <h2 class="section-title">Yang Bikin Hafal Beda</h2>
+        <p class="section-sub">Semua yang kamu butuh buat belajar kosakata — tanpa bayar langganan.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="feature-card reveal">
+          <span class="feature-icon">🧠</span>
+          <h3>SRS Cerdas</h3>
+          <p>Algoritma SM-2 mengatur jadwal review otomatis. Kartu susah muncul lebih sering.</p>
+        </div>
+        <div class="feature-card reveal">
+          <span class="feature-icon">🔊</span>
+          <h3>Audio Pronunciation</h3>
+          <p>Dengar cara pengucapan langsung dari browser. Gratis, tanpa API key.</p>
+        </div>
+        <div class="feature-card reveal">
+          <span class="feature-icon">🌐</span>
+          <h3>Multi-Bahasa</h3>
+          <p>Mandarin, Jepang, Rusia, dan terus bertambah. Tinggal pilih dari dropdown.</p>
+        </div>
+        <div class="feature-card reveal">
+          <span class="feature-icon">💾</span>
+          <h3>Progress Otomatis</h3>
+          <p>Semua progress tersimpan di browser. Nggak perlu daftar akun.</p>
+        </div>
+        <div class="feature-card reveal">
+          <span class="feature-icon">📸</span>
+          <h3>Download Hasil</h3>
+          <p>Simpan kartu skor belajar sebagai gambar PNG dan bagikan ke teman.</p>
+        </div>
+        <div class="feature-card reveal">
+          <span class="feature-icon">⌨️</span>
+          <h3>Keyboard Shortcut</h3>
+          <p>Belajar pakai keyboard: Space untuk buka, 1–4 untuk rating, A untuk audio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BAHASA ================= -->
+  <section id="bahasa" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="section-tag">BAHASA</span>
+        <h2 class="section-title">Pilih Bahasa Favoritmu</h2>
+        <p class="section-sub">Setiap bahasa punya deck sendiri, font sendiri, dan voice sendiri.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <a href="./belajar.html" class="lang-card reveal">
+          <div class="lang-flag">🇨🇳</div>
+          <h3 class="lang-name">Mandarin</h3>
+          <p class="lang-level">HSK 1 · 20 kartu</p>
+          <span class="lang-cta">Mulai →</span>
+        </a>
+        <a href="./belajar.html" class="lang-card reveal">
+          <div class="lang-flag">🇯🇵</div>
+          <h3 class="lang-name">Jepang</h3>
+          <p class="lang-level">JLPT N5 · 20 kartu</p>
+          <span class="lang-cta">Mulai →</span>
+        </a>
+        <a href="./belajar.html" class="lang-card reveal">
+          <div class="lang-flag">🇷🇺</div>
+          <h3 class="lang-name">Rusia</h3>
+          <p class="lang-level">A1 · 20 kartu</p>
+          <span class="lang-cta">Mulai →</span>
+        </a>
+      </div>
+
+      <p class="section-foot reveal">
+        Mau bahasa lain? Tinggal tambah file JSON di folder <code>data/</code>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= CARA PAKAI ================= -->
+  <section id="cara" class="section">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="section-tag">CARA PAKAI</span>
+        <h2 class="section-title">Tiga Langkah, Langsung Belajar</h2>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="step-card reveal">
+          <span class="step-num">01</span>
+          <h3>Pilih Bahasa</h3>
+          <p>Buka halaman belajar, pilih bahasa dari dropdown di navbar.</p>
+        </div>
+        <div class="step-card reveal">
+          <span class="step-num">02</span>
+          <h3>Klik Kartu</h3>
+          <p>Klik kartu untuk lihat arti. Tekan <kbd>A</kbd> untuk audio, <kbd>Space</kbd> untuk jawaban.</p>
+        </div>
+        <div class="step-card reveal">
+          <span class="step-num">03</span>
+          <h3>Beri Rating</h3>
+          <p>Tentukan tingkat kesulitan: <kbd>1</kbd> Lupa, <kbd>2</kbd> Susah, <kbd>3</kbd> Bagus, <kbd>4</kbd> Gampang.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section id="faq" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="section-tag">FAQ</span>
+        <h2 class="section-title">Pertanyaan Umum</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item reveal">
+          <summary>Apakah Hafal benar-benar gratis?</summary>
+          <p>Ya, 100% gratis. Nggak ada langganan, nggak ada iklan, nggak ada batas harian.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Apakah perlu daftar akun?</summary>
+          <p>Nggak perlu. Semua progress tersimpan otomatis di browser.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Progress-nya hilang kalau ganti browser?</summary>
+          <p>Ya, karena tersimpan per-browser. Pakai satu browser yang sama agar konsisten.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Audionya nggak keluar, kenapa?</summary>
+          <p>Beberapa browser (terutama Firefox di Windows) belum punya voice untuk bahasa tertentu. Coba buka di <strong>Microsoft Edge</strong> atau <strong>Google Chrome</strong>.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Bisa tambah bahasa sendiri?</summary>
+          <p>Bisa. Buat file JSON baru di folder <code>data/</code> dengan format <code>[{ word, reading, meaning }]</code>.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Bagaimana cara download hasil skor?</summary>
+          <p>Selesaikan satu sesi belajar, lalu klik tombol <strong>Download Hasil</strong> di layar selesai. Skor akan tersimpan sebagai gambar PNG.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA AKHIR ================= -->
+  <section class="cta-final">
+    <div class="cta-inner reveal">
+      <h2>Siap mulai hafal kosakata pertamamu?</h2>
+      <p>Gratis, cepat, tanpa ribet. Buka halaman belajar dan mulai sekarang.</p>
+      <a href="./belajar.html" class="btn btn-primary btn-lg">Mulai Belajar</a>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a href="./index.html" class="brand">
+          <span class="brand-mark">H</span>
+          <span class="brand-name">Hafal</span>
+        </a>
+        <p class="footer-copy">Belajar bahasa asing, gratis untuk semua.</p>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Hafal</span>
+        <span>HTML · CSS · JS murni</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Tahun
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    function applyTheme(theme) {
+      if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        themeIcon.textContent = '☀️';
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+        themeIcon.textContent = '🌙';
+      }
+    }
+    themeToggle.addEventListener('click', () => {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      const next = isDark ? 'light' : 'dark';
+      applyTheme(next);
+      localStorage.setItem('hafal:theme', next);
+    });
+    applyTheme(localStorage.getItem('hafal:theme') || 'light');
+
+    // Mobile menu
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    const menuIcon = menuToggle.querySelector('.menu-icon');
+    menuToggle.addEventListener('click', () => {
+      const open = navMenu.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', open);
+      menuIcon.textContent = open ? '✕' : '☰';
+      document.body.style.overflow = open ? 'hidden' : '';
+    });
+    navMenu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navMenu.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuIcon.textContent = '☰';
+        document.body.style.overflow = '';
+      });
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        const id = a.getAttribute('href');
+        if (id === '#') return;
+        const target = document.querySelector(id);
+        if (target) {
+          e.preventDefault();
+          const y = target.getBoundingClientRect().top + window.pageYOffset - 70;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Scroll reveal animation
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach((el, i) => {
+      el.style.transitionDelay = `${Math.min(i * 40, 240)}ms`;
+      io.observe(el);
+    });
+  </script>
+</body>
+</html>

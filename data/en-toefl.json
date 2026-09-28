@@ -1,0 +1,22 @@
+[
+  { "word": "analyze",     "reading": "AN-uh-lyze",       "meaning": "menganalisis" },
+  { "word": "hypothesis",  "reading": "hy-POTH-uh-sis",   "meaning": "hipotesis" },
+  { "word": "significant", "reading": "sig-NIF-uh-kunt",  "meaning": "signifikan / penting" },
+  { "word": "contribute",  "reading": "kun-TRIB-yoot",    "meaning": "berkontribusi" },
+  { "word": "establish",   "reading": "es-TAB-lish",      "meaning": "mendirikan / menetapkan" },
+  { "word": "demonstrate", "reading": "DEM-un-strayt",    "meaning": "menunjukkan" },
+  { "word": "emphasize",   "reading": "EM-fuh-size",      "meaning": "menekankan" },
+  { "word": "consequently","reading": "KON-suh-kwent-lee","meaning": "akibatnya" },
+  { "word": "furthermore", "reading": "FUR-ther-mor",     "meaning": "lebih lanjut / selain itu" },
+  { "word": "nevertheless","reading": "nev-er-thuh-LESS", "meaning": "meskipun demikian" },
+  { "word": "substantial", "reading": "sub-STAN-shul",    "meaning": "substansial / besar" },
+  { "word": "phenomenon",  "reading": "fuh-NOM-uh-non",   "meaning": "fenomena" },
+  { "word": "approach",    "reading": "uh-PROHCH",        "meaning": "pendekatan" },
+  { "word": "research",    "reading": "ree-SURCH",        "meaning": "penelitian" },
+  { "word": "concept",     "reading": "KON-sept",         "meaning": "konsep" },
+  { "word": "evidence",    "reading": "EV-uh-dens",       "meaning": "bukti" },
+  { "word": "interpret",   "reading": "in-TUR-prit",      "meaning": "menafsirkan" },
+  { "word": "illustrate",  "reading": "IL-uh-strayt",     "meaning": "mengilustrasikan" },
+  { "word": "evaluate",    "reading": "ee-VAL-yoo-ayt",   "meaning": "mengevaluasi" },
+  { "word": "anticipate",  "reading": "an-TISS-uh-payt",  "meaning": "mengantisipasi" }
+]

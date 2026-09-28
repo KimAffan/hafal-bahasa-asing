@@ -1,0 +1,22 @@
+[
+  { "word": "Hallo",       "reading": "HAH-loh",         "meaning": "halo" },
+  { "word": "Guten Tag",   "reading": "GOO-ten tahk",    "meaning": "selamat siang" },
+  { "word": "Danke",       "reading": "DAHN-kuh",        "meaning": "terima kasih" },
+  { "word": "Tschüss",     "reading": "chuess",          "meaning": "dadah" },
+  { "word": "Ich",         "reading": "ikh",             "meaning": "saya" },
+  { "word": "Du",          "reading": "doo",             "meaning": "kamu (santai)" },
+  { "word": "Sie",         "reading": "zee",             "meaning": "Anda (formal)" },
+  { "word": "Er",          "reading": "air",             "meaning": "dia (laki-laki)" },
+  { "word": "Ja",          "reading": "yah",             "meaning": "ya" },
+  { "word": "Nein",        "reading": "nine",            "meaning": "tidak" },
+  { "word": "Wasser",      "reading": "VAH-ser",         "meaning": "air" },
+  { "word": "Brot",        "reading": "broht",           "meaning": "roti" },
+  { "word": "Essen",       "reading": "ES-sen",          "meaning": "makan" },
+  { "word": "Trinken",     "reading": "TRIN-ken",        "meaning": "minum" },
+  { "word": "Schule",      "reading": "SHOO-luh",        "meaning": "sekolah" },
+  { "word": "Lehrer",      "reading": "LAY-rer",         "meaning": "guru" },
+  { "word": "Student",     "reading": "shtoo-DENT",      "meaning": "mahasiswa" },
+  { "word": "Freund",      "reading": "froynt",          "meaning": "teman" },
+  { "word": "Haus",        "reading": "hows",            "meaning": "rumah" },
+  { "word": "Deutschland", "reading": "DOYCH-lahnt",     "meaning": "Jerman" }
+]

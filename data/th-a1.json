@@ -1,0 +1,22 @@
+[
+  { "word": "สวัสดี",      "reading": "sawatdi",      "meaning": "halo" },
+  { "word": "ขอบคุณ",      "reading": "khopkhun",     "meaning": "terima kasih" },
+  { "word": "ลาก่อน",      "reading": "lakon",        "meaning": "selamat tinggal" },
+  { "word": "ผม",          "reading": "phom",         "meaning": "saya (laki-laki)" },
+  { "word": "ฉัน",         "reading": "chan",         "meaning": "saya (perempuan)" },
+  { "word": "คุณ",         "reading": "khun",         "meaning": "kamu / Anda" },
+  { "word": "เขา",         "reading": "khao",         "meaning": "dia" },
+  { "word": "ใช่",         "reading": "chai",         "meaning": "ya" },
+  { "word": "ไม่",         "reading": "mai",          "meaning": "tidak" },
+  { "word": "น้ำ",         "reading": "nam",          "meaning": "air" },
+  { "word": "ข้าว",        "reading": "khao",         "meaning": "nasi" },
+  { "word": "กิน",         "reading": "kin",          "meaning": "makan" },
+  { "word": "ดื่ม",        "reading": "duem",         "meaning": "minum" },
+  { "word": "โรงเรียน",    "reading": "rongrian",     "meaning": "sekolah" },
+  { "word": "ครู",         "reading": "khru",         "meaning": "guru" },
+  { "word": "นักเรียน",    "reading": "nakrian",      "meaning": "murid" },
+  { "word": "เพื่อน",      "reading": "phuean",       "meaning": "teman" },
+  { "word": "บ้าน",        "reading": "ban",          "meaning": "rumah" },
+  { "word": "ประเทศไทย",   "reading": "prathet thai", "meaning": "Thailand" },
+  { "word": "ภาษาไทย",     "reading": "phasa thai",   "meaning": "bahasa Thailand" }
+]

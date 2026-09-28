@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)" />
+  <title>Belajar — Hafal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;700;900&family=Noto+Sans+JP:wght@400;700;900&family=Noto+Sans+KR:wght@400;700;900&family=Noto+Sans:wght@400;700;900&family=Noto+Sans+Thai:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body data-lang="zh-hsk1">
+
+  <header class="navbar">
+    <a href="./index.html" class="brand">
+      <span class="brand-mark">H</span>
+      <h1 class="brand-name">Hafal</h1>
+    </a>
+
+    <div class="nav-actions">
+      <select id="lang-select" class="select" aria-label="Pilih bahasa">
+        <option value="zh-hsk1">🇨🇳 Mandarin · HSK 1</option>
+        <option value="ja-n5">🇯🇵 Jepang · N5</option>
+        <option value="ru-a1">🇷🇺 Rusia · A1</option>
+        <option value="en-toefl">🇬🇧 Inggris · TOEFL</option>
+        <option value="th-a1">🇹🇭 Thailand · Dasar</option>
+        <option value="de-a1">🇩🇪 Jerman · A1</option>
+      </select>
+
+      <button id="theme-toggle" class="btn btn-icon" aria-label="Toggle tema">
+        <span id="theme-icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="stats">
+      <div class="stat">
+        <span class="stat-label">Streak</span>
+        <span class="stat-value" id="stat-streak">0</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Dikuasai</span>
+        <span class="stat-value" id="stat-learned">0</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Perlu Review</span>
+        <span class="stat-value" id="stat-due">0</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Sesi</span>
+        <span class="stat-value" id="stat-session">0</span>
+      </div>
+    </section>
+
+    <div class="progress-wrap">
+      <div class="progress">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+      <p class="progress-text">
+        Kartu <span id="pos">0</span> / <span id="total">0</span>
+      </p>
+    </div>
+
+    <section class="card-area">
+      <div id="card" class="card" tabindex="0">
+        <div class="card-top">
+          <span class="card-tag" id="card-tag">BARU</span>
+          <div class="card-top-right">
+            <button id="audio-btn" class="btn-icon-round" aria-label="Putar audio" title="Putar audio (A)">
+              🔊
+            </button>
+            <span class="card-count" id="card-count">0×</span>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <p class="card-word" id="card-word">—</p>
+          <p class="card-reading" id="card-reading"></p>
+          <p class="card-meaning" id="card-meaning"></p>
+        </div>
+
+        <p class="flip-hint" id="flip-hint">KLIK UNTUK LIHAT ARTINYA · [A] UNTUK AUDIO</p>
+      </div>
+    </section>
+
+    <section class="ratings" id="ratings">
+      <button class="btn btn-rate" data-rating="0">
+        <span class="rate-key">1</span>
+        <span class="rate-label">Lupa</span>
+      </button>
+      <button class="btn btn-rate" data-rating="1">
+        <span class="rate-key">2</span>
+        <span class="rate-label">Susah</span>
+      </button>
+      <button class="btn btn-rate" data-rating="2">
+        <span class="rate-key">3</span>
+        <span class="rate-label">Bagus</span>
+      </button>
+      <button class="btn btn-rate" data-rating="3">
+        <span class="rate-key">4</span>
+        <span class="rate-label">Gampang</span>
+      </button>
+    </section>
+
+    <footer class="footer">
+      <button id="reset-btn" class="btn btn-ghost">Reset Progress</button>
+      <button id="shuffle-btn" class="btn btn-ghost">Acak Ulang</button>
+    </footer>
+
+    <div id="done-screen" class="done hidden">
+      <p class="done-title">Selesai! 🎉</p>
+      <p class="done-sub">Semua kartu untuk sesi ini sudah direview.</p>
+      <div class="done-actions">
+        <button id="download-btn" class="btn btn-primary">📸 Download Hasil</button>
+        <button id="restart-btn" class="btn">Mulai Sesi Baru</button>
+      </div>
+      <p class="done-hint">Bagikan skormu ke teman atau simpan sebagai kenangan.</p>
+    </div>
+
+  </main>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/srs.js"></script>
+  <script src="./js/speech.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+  { "word": "Привет",        "reading": "privet",       "meaning": "hai (santai)" },
+  { "word": "Здравствуйте",  "reading": "zdravstvuyte", "meaning": "halo (formal)" },
+  { "word": "Спасибо",       "reading": "spasibo",      "meaning": "terima kasih" },
+  { "word": "Пока",          "reading": "poka",         "meaning": "dadah" },
+  { "word": "Я",             "reading": "ya",           "meaning": "saya" },
+  { "word": "Ты",            "reading": "ty",           "meaning": "kamu (santai)" },
+  { "word": "Вы",            "reading": "vy",           "meaning": "Anda (formal)" },
+  { "word": "Он",            "reading": "on",           "meaning": "dia (laki-laki)" },
+  { "word": "Она",           "reading": "ona",          "meaning": "dia (perempuan)" },
+  { "word": "Да",            "reading": "da",           "meaning": "ya" },
+  { "word": "Нет",           "reading": "net",          "meaning": "tidak" },
+  { "word": "Вода",          "reading": "voda",         "meaning": "air" },
+  { "word": "Хлеб",          "reading": "khleb",        "meaning": "roti" },
+  { "word": "Есть",          "reading": "yest'",        "meaning": "makan" },
+  { "word": "Пить",          "reading": "pit'",         "meaning": "minum" },
+  { "word": "Школа",         "reading": "shkola",       "meaning": "sekolah" },
+  { "word": "Учитель",       "reading": "uchitel'",     "meaning": "guru" },
+  { "word": "Студент",       "reading": "student",      "meaning": "mahasiswa" },
+  { "word": "Друг",          "reading": "drug",         "meaning": "teman (laki-laki)" },
+  { "word": "Дом",           "reading": "dom",          "meaning": "rumah" }
+]
